@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "extends": [ "standard", "plugin:react/recommended" ],
+  "rules": {
+    "space-before-function-paren": [ "error", "never" ],
+    "semi": [ "error", "always" ]
+  }
+}

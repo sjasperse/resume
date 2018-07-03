@@ -1,0 +1,22 @@
+@import '../_variables';
+
+.resume-header {
+  background-color: $background;
+  color: white;
+  text-align: center;
+
+  padding: 10px 20px;
+
+  .name {
+    margin: 0;
+  }
+
+  .subtext {
+    text-align: center;
+  }
+
+  a, a:visited {
+    color: lightblue;
+    margin: 0 10px;
+  }
+}

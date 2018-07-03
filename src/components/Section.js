@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Section.scss';
-
-function toClassName(name) {
-  return name.toLowerCase().replace(/\ /g, '-');
-}
+import toClassName from '../to-class-name';
 
 function Section(props) {
   return (
@@ -16,10 +13,8 @@ function Section(props) {
 }
 
 Section.propTypes = {
-  name: PropTypes.string
+  name: PropTypes.string,
+  children: PropTypes.any
 };
 
 module.exports = Section;
-
-
-

@@ -1,0 +1,39 @@
+.experience {
+  margin-bottom: 2em;
+  page-break-inside: avoid;
+
+  .experience-header {
+    padding-bottom: 10px;
+    font-weight: bold;
+
+    .company {
+      display: inline-block;
+    }
+
+    .location {
+      display: inline-block;
+    }
+
+    .duration {
+      display: inline-block;
+    }
+  }
+
+  label {
+    display: inline-block;
+    font-weight: bold;
+    width: 100px;
+  }
+
+  .company {
+    font-size: 1.2em;
+  }
+  .location {
+    font-style: italic;
+  }
+
+  .field-value-about {
+    display: block;
+    padding-left: 100px;
+  }
+}

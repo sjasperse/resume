@@ -86,14 +86,71 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Section.scss":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/Section.scss ***!
-  \*********************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/Experience.scss":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/components/Experience.scss ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".experience {\n  margin-bottom: 2em;\n  page-break-inside: avoid; }\n  .experience .experience-header {\n    padding-bottom: 10px;\n    font-weight: bold; }\n    .experience .experience-header .company {\n      display: inline-block; }\n    .experience .experience-header .location {\n      display: inline-block; }\n    .experience .experience-header .duration {\n      display: inline-block; }\n  .experience label {\n    display: inline-block;\n    font-weight: bold;\n    width: 100px; }\n  .experience .company {\n    font-size: 1.2em; }\n  .experience .location {\n    font-style: italic; }\n  .experience .field-value-about {\n    display: block;\n    padding-left: 100px; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/InlineList.scss":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/components/InlineList.scss ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".inline-list {\n  display: inline;\n  margin: 0;\n  padding: 0; }\n  .inline-list li {\n    display: inline;\n    list-style-type: none; }\n    .inline-list li:after {\n      content: \", \"; }\n    .inline-list li:last-child:after {\n      content: \"\"; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/ResumeHeader.scss":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/components/ResumeHeader.scss ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".resume-header {\n  background-color: darkblue;\n  color: white;\n  text-align: center;\n  padding: 10px 20px; }\n  .resume-header .name {\n    margin: 0; }\n  .resume-header .subtext {\n    text-align: center; }\n  .resume-header a, .resume-header a:visited {\n    color: lightblue;\n    margin: 0 10px; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/Section.scss":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/components/Section.scss ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -117,7 +174,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/li
 
 
 // module
-exports.push([module.i, ".resume-header {\n  background-color: darkblue;\n  color: white;\n  text-align: center;\n  padding: 10px 20px; }\n  .resume-header .name {\n    margin: 0; }\n  .resume-header .subtext {\n    text-align: center; }\n  .resume-header a, .resume-header a:visited {\n    color: lightblue;\n    margin: 0 10px; }\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #333333;\n  margin: 0; }\n\np {\n  margin: 0.1em 0;\n  padding-left: 10px;\n  text-indent: -10px; }\n\n.inline-list {\n  display: inline;\n  margin: 0;\n  padding: 0; }\n  .inline-list li {\n    display: inline;\n    list-style-type: none; }\n    .inline-list li:after {\n      content: \", \"; }\n    .inline-list li:last-child:after {\n      content: \"\"; }\n\n.clearfix::after {\n  content: \"\";\n  clear: both;\n  display: table; }\n\n.experience {\n  margin-bottom: 2em;\n  page-break-inside: avoid; }\n  .experience .experience-header {\n    padding-bottom: 10px;\n    font-weight: bold; }\n    .experience .experience-header .company {\n      display: inline-block; }\n    .experience .experience-header .location {\n      display: inline-block; }\n    .experience .experience-header .duration {\n      display: inline-block; }\n  .experience label {\n    display: inline-block;\n    font-weight: bold;\n    width: 100px; }\n  .experience .company {\n    font-size: 1.2em; }\n  .experience .location {\n    font-style: italic; }\n  .experience .field-value-about {\n    display: block;\n    padding-left: 100px; }\n\n.section-references .references-list li {\n  margin-bottom: 2em; }\n\n.section-references .reference-name {\n  font-weight: bold;\n  display: block; }\n\n.section-references .reference-worked-with-at {\n  display: block; }\n\n.section-references .reference-role {\n  display: block; }\n\n.section-references .reference-phone {\n  display: inline-block;\n  width: 110px; }\n", ""]);
+exports.push([module.i, "body {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #333333;\n  margin: 0; }\n\np {\n  margin: 0.1em 0;\n  padding-left: 10px;\n  text-indent: -10px; }\n\n.clearfix::after {\n  content: \"\";\n  clear: both;\n  display: table; }\n", ""]);
 
 // exports
 
@@ -21204,10 +21261,10 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ "./src/Section.js":
-/*!************************!*\
-  !*** ./src/Section.js ***!
-  \************************/
+/***/ "./src/components/Experience.js":
+/*!**************************************!*\
+  !*** ./src/components/Experience.js ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21222,18 +21279,390 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-__webpack_require__(/*! ./Section.scss */ "./src/Section.scss");
+var _toClassName = __webpack_require__(/*! ../to-class-name */ "./src/to-class-name.js");
+
+var _toClassName2 = _interopRequireDefault(_toClassName);
+
+__webpack_require__(/*! ./Experience.scss */ "./src/components/Experience.scss");
+
+var _InlineList = __webpack_require__(/*! ./InlineList */ "./src/components/InlineList.js");
+
+var _InlineList2 = _interopRequireDefault(_InlineList);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function toClassName(name) {
-  return name.toLowerCase().replace(/\ /g, '-');
+function field(type, name, value) {
+  if (value) {
+    return _react2.default.createElement(
+      'div',
+      { className: type + '-field' },
+      _react2.default.createElement(
+        'label',
+        null,
+        name
+      ),
+      _react2.default.createElement(
+        'span',
+        { className: 'field-value field-value-' + (0, _toClassName2.default)(name) },
+        value
+      )
+    );
+  } else {
+    return null;
+  }
 }
+
+function experienceField(name, value) {
+  return field('experience', name, value);
+}
+
+function toList(ps) {
+  if (ps) {
+    return _react2.default.createElement(
+      'ul',
+      null,
+      ps.map(function (x, i) {
+        return _react2.default.createElement(
+          'li',
+          { key: i },
+          x
+        );
+      })
+    );
+  } else {
+    return null;
+  }
+}
+
+function Experience(props) {
+  var experience = props.source;
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'experience' },
+    _react2.default.createElement(
+      'div',
+      { className: 'experience-header' },
+      _react2.default.createElement(
+        'div',
+        { className: 'company' },
+        experience.company
+      ),
+      '\xA0\xA0',
+      _react2.default.createElement(
+        'div',
+        { className: 'location' },
+        experience.location
+      ),
+      '\xA0\xA0',
+      _react2.default.createElement(
+        'div',
+        { className: 'duration' },
+        experience.started,
+        ' - ',
+        experience.ended || '(ongoing)'
+      )
+    ),
+    experienceField('Description', experience.description),
+    experienceField('Position', experience.contracted ? 'Contracted' : experience.position),
+    experienceField('Tech Used', _react2.default.createElement(
+      _InlineList2.default,
+      null,
+      experience.techUsed
+    )),
+    experienceField('Summary', toList(experience.summary))
+  );
+}
+
+Experience.propTypes = {
+  source: _propTypes2.default.object.isRequired
+};
+
+module.exports = Experience;
+
+/***/ }),
+
+/***/ "./src/components/Experience.scss":
+/*!****************************************!*\
+  !*** ./src/components/Experience.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./Experience.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/Experience.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/components/InlineList.js":
+/*!**************************************!*\
+  !*** ./src/components/InlineList.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+__webpack_require__(/*! ./InlineList.scss */ "./src/components/InlineList.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function InlineList(props) {
+  var ps = props.children;
+
+  if (ps) {
+    return _react2.default.createElement(
+      'ul',
+      { className: 'inline-list' },
+      ps.map(function (x, i) {
+        return _react2.default.createElement(
+          'li',
+          { key: i },
+          x
+        );
+      })
+    );
+  } else {
+    return null;
+  }
+}
+
+InlineList.propTypes = {
+  children: _propTypes2.default.arrayOf(_propTypes2.default.string)
+};
+
+module.exports = InlineList;
+
+/***/ }),
+
+/***/ "./src/components/InlineList.scss":
+/*!****************************************!*\
+  !*** ./src/components/InlineList.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./InlineList.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/InlineList.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/components/Paragraphs.js":
+/*!**************************************!*\
+  !*** ./src/components/Paragraphs.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Paragraphs(props) {
+  var ps = props.children;
+  if (ps && ps.length > 0) {
+    return ps.map(function (x, i) {
+      return _react2.default.createElement(
+        'p',
+        { key: i },
+        x
+      );
+    });
+  } else {
+    return null;
+  }
+}
+
+Paragraphs.propTypes = {
+  children: _propTypes2.default.arrayOf(_propTypes2.default.string)
+};
+
+module.exports = Paragraphs;
+
+/***/ }),
+
+/***/ "./src/components/ResumeHeader.js":
+/*!****************************************!*\
+  !*** ./src/components/ResumeHeader.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+__webpack_require__(/*! ./ResumeHeader.scss */ "./src/components/ResumeHeader.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function ResumeHeader(props) {
+  return _react2.default.createElement(
+    'header',
+    { className: 'resume-header' },
+    _react2.default.createElement(
+      'div',
+      { className: 'clearfix' },
+      _react2.default.createElement(
+        'h1',
+        { className: 'name' },
+        props.name
+      ),
+      _react2.default.createElement(
+        'span',
+        { className: 'email' },
+        props.email
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'subtext' },
+      _react2.default.createElement(
+        'a',
+        { href: props.linkedInUrl, className: 'linkedIn' },
+        props.linkedInUrl
+      ),
+      _react2.default.createElement(
+        'a',
+        { href: props.githubUrl, className: 'github' },
+        props.githubUrl
+      )
+    )
+  );
+}
+
+ResumeHeader.propTypes = {
+  name: _propTypes2.default.string.isRequired,
+  email: _propTypes2.default.string.isRequired,
+  linkedInUrl: _propTypes2.default.string.isRequired,
+  githubUrl: _propTypes2.default.string.isRequired
+};
+
+module.exports = ResumeHeader;
+
+/***/ }),
+
+/***/ "./src/components/ResumeHeader.scss":
+/*!******************************************!*\
+  !*** ./src/components/ResumeHeader.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./ResumeHeader.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/ResumeHeader.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./src/components/Section.js":
+/*!***********************************!*\
+  !*** ./src/components/Section.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+__webpack_require__(/*! ./Section.scss */ "./src/components/Section.scss");
+
+var _toClassName = __webpack_require__(/*! ../to-class-name */ "./src/to-class-name.js");
+
+var _toClassName2 = _interopRequireDefault(_toClassName);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Section(props) {
   return _react2.default.createElement(
     'section',
-    { className: 'section-' + toClassName(props.name) },
+    { className: 'section-' + (0, _toClassName2.default)(props.name) },
     _react2.default.createElement(
       'header',
       null,
@@ -21248,22 +21677,23 @@ function Section(props) {
 }
 
 Section.propTypes = {
-  name: _propTypes2.default.string
+  name: _propTypes2.default.string,
+  children: _propTypes2.default.any
 };
 
 module.exports = Section;
 
 /***/ }),
 
-/***/ "./src/Section.scss":
-/*!**************************!*\
-  !*** ./src/Section.scss ***!
-  \**************************/
+/***/ "./src/components/Section.scss":
+/*!*************************************!*\
+  !*** ./src/components/Section.scss ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!./Section.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/Section.scss");
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./Section.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/Section.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -21277,7 +21707,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -21309,130 +21739,37 @@ var _index = __webpack_require__(/*! ./index.json */ "./src/index.json");
 
 var _index2 = _interopRequireDefault(_index);
 
-var _Section = __webpack_require__(/*! ./Section */ "./src/Section.js");
+var _ResumeHeader = __webpack_require__(/*! ./components/ResumeHeader */ "./src/components/ResumeHeader.js");
+
+var _ResumeHeader2 = _interopRequireDefault(_ResumeHeader);
+
+var _Section = __webpack_require__(/*! ./components/Section */ "./src/components/Section.js");
 
 var _Section2 = _interopRequireDefault(_Section);
 
+var _Paragraphs = __webpack_require__(/*! ./components/Paragraphs */ "./src/components/Paragraphs.js");
+
+var _Paragraphs2 = _interopRequireDefault(_Paragraphs);
+
+var _InlineList = __webpack_require__(/*! ./components/InlineList */ "./src/components/InlineList.js");
+
+var _InlineList2 = _interopRequireDefault(_InlineList);
+
+var _Experience = __webpack_require__(/*! ./components/Experience */ "./src/components/Experience.js");
+
+var _Experience2 = _interopRequireDefault(_Experience);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function toClassName(name) {
-  return name.toLowerCase().replace(/\ /g, '-');
-}
-
-function field(type, name, value) {
-  if (value) {
-    return _react2.default.createElement(
-      'div',
-      { className: type + '-field' },
-      _react2.default.createElement(
-        'label',
-        null,
-        name
-      ),
-      _react2.default.createElement(
-        'span',
-        { className: 'field-value field-value-' + toClassName(name) },
-        value
-      )
-    );
-  } else {
-    return null;
-  }
-}
-
-function experienceField(name, value) {
-  return field('experience', name, value);
-}
-
-function contractField(name, value) {
-  return field('contract', name, value);
-}
-
-function toParagraphs(ps) {
-  if (ps) {
-    return ps.map(function (x, i) {
-      return _react2.default.createElement(
-        'p',
-        { key: i },
-        x
-      );
-    });
-  } else {
-    return null;
-  }
-}
-
-function toInlineList(ps) {
-  if (ps) {
-    return _react2.default.createElement(
-      'ul',
-      { className: 'inline-list' },
-      ps.map(function (x, i) {
-        return _react2.default.createElement(
-          'li',
-          { key: i },
-          x
-        );
-      })
-    );
-  } else {
-    return null;
-  }
-}
-
-function toList(ps) {
-  if (ps) {
-    return _react2.default.createElement(
-      'ul',
-      null,
-      ps.map(function (x, i) {
-        return _react2.default.createElement(
-          'li',
-          { key: i },
-          x
-        );
-      })
-    );
-  } else {
-    return null;
-  }
-}
 
 var resume = _react2.default.createElement(
   'div',
   null,
-  _react2.default.createElement(
-    'header',
-    { className: 'resume-header' },
-    _react2.default.createElement(
-      'div',
-      { className: 'clearfix' },
-      _react2.default.createElement(
-        'h1',
-        { className: 'name' },
-        _index2.default.personalInfo.name
-      ),
-      _react2.default.createElement(
-        'span',
-        { className: 'email' },
-        _index2.default.personalInfo.email
-      )
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'subtext' },
-      _react2.default.createElement(
-        'a',
-        { href: _index2.default.personalInfo.linkedIn, className: 'linkedIn' },
-        _index2.default.personalInfo.linkedIn
-      ),
-      _react2.default.createElement(
-        'a',
-        { href: _index2.default.personalInfo.github, className: 'github' },
-        _index2.default.personalInfo.github
-      )
-    )
-  ),
+  _react2.default.createElement(_ResumeHeader2.default, {
+    name: _index2.default.personalInfo.name,
+    email: _index2.default.personalInfo.email,
+    githubUrl: _index2.default.personalInfo.github,
+    linkedInUrl: _index2.default.personalInfo.linkedIn
+  }),
   _react2.default.createElement(
     _Section2.default,
     { name: 'Objective' },
@@ -21445,51 +21782,29 @@ var resume = _react2.default.createElement(
   _react2.default.createElement(
     _Section2.default,
     { name: 'Summary' },
-    toParagraphs(_index2.default.summary)
+    _react2.default.createElement(
+      _Paragraphs2.default,
+      null,
+      _index2.default.summary
+    )
   ),
   _react2.default.createElement(
     _Section2.default,
     { name: 'Interested In' },
-    toInlineList(_index2.default.interestedIn)
+    _react2.default.createElement(
+      _InlineList2.default,
+      null,
+      _index2.default.interestedIn
+    )
   ),
   _react2.default.createElement(
     _Section2.default,
     { name: 'Experience' },
-    _index2.default.experience.map(function (experience, i) {
-      return _react2.default.createElement(
-        'div',
-        { className: 'experience', key: i },
-        _react2.default.createElement(
-          'div',
-          { className: 'experience-header' },
-          _react2.default.createElement(
-            'div',
-            { className: 'company' },
-            experience.company
-          ),
-          '\xA0\xA0',
-          _react2.default.createElement(
-            'div',
-            { className: 'location' },
-            experience.location
-          ),
-          '\xA0\xA0',
-          _react2.default.createElement(
-            'div',
-            { className: 'duration' },
-            experience.started,
-            ' - ',
-            experience.ended || '(ongoing)'
-          )
-        ),
-        experienceField('Description', experience.description),
-        experienceField('Position', experience.contracted ? 'Contracted' : experience.position),
-        experienceField('Tech Used', toInlineList(experience.techUsed)),
-        experienceField('Summary', toList(experience.summary))
-      );
+    _index2.default.experience.map(function (x, i) {
+      return _react2.default.createElement(_Experience2.default, { key: i, source: x });
     })
   ),
-  _index2.default.references && _react2.default.createElement(
+  _react2.default.createElement(
     _Section2.default,
     { name: 'References' },
     _react2.default.createElement(
@@ -21558,7 +21873,27 @@ if(content.locals) module.exports = content.locals;
 
 if(false) {}
 
+/***/ }),
+
+/***/ "./src/to-class-name.js":
+/*!******************************!*\
+  !*** ./src/to-class-name.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = toClassName;
+function toClassName(name) {
+  return name.toLowerCase().replace(/ /g, '-');
+}
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map?t=1530621988159
+//# sourceMappingURL=index.js.map?t=1530626015874
