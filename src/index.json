@@ -1,0 +1,101 @@
+{
+  "personalInfo": {
+    "name": "Scott Jasperse",
+    "email": "scott@c-solve.com",
+    "github": "https://github.com/sjasperse",
+    "linkedIn": "https://www.linkedin.com/in/scottjasperse/"
+  },
+  "resumeRepoUrl": "https://github.com/sjasperse/resume",
+
+  "objective": "To share my abilities and experience with a team or teams to solve difficult problems involving web backends, APIs, and architecture, and to gain more experience in distributed applications.",
+  "summary": [
+    "14+ years of professional full stack development focusing on complex inner workings of difficult back-end projects.",
+    "Self-employed out of C-Solve Consulting, LLC for the last 8 years, contracting to deliver a range of complex projects.",
+    "Self-driven, constant learner, with a drive for quality, integrity, transparency, and good relationships in and across departments.",
+    "Led and mentored small teams, which is one of the greatest enjoyments of my career.",
+    "Helps engineer DevOps processes to improve our day-to-day operations to get to good, repeatable environments and deployments.",
+    "Worked 100% remote while traveling the country in an RV with my family."
+  ],
+  "skills": [ ".NET", ".NET Core", "C#", "ASP.NET MVC", "ASP.NET WebApi", "Sql Server", "Docker", "Javascript", "AngularJS", "NodeJS", "ExpressJS", "HTML", "CSS", "Bootstrap", "Agile", "Scrum" ],
+  "interestedIn": [ "React", "Redux", "Functional Programming", "CQRS", "Test-Driven Development", "DevOps", "CI/CD", "Microservices", "Domain-Driven Design", "Event-Driven Architectures" ],
+  "experience": [
+    {
+      "company": "Building Catalyst, LLC",
+      "location": "Grand Rapids, MI",
+      "started": "January 2012",
+      "position": "Partner, Software Engineer",
+      "summary": [
+        "Building Catalyst is a software startup that seeks to use data analysis to bring Lean principles to the construction industry.",
+        "Started as a huge set of proof-of-concept formulas in the most elaborate Excel spreadsheet I've ever seen. I had to reverse engineer it and turn it into the basis of the calculation engine we have today.",
+        "Began as an ASP.NET MVC project, but I built prototype Angular implementations (and ultimately integrated them) to solve UI problems in key areas.",
+        "Stood up all our cloud hosting, build and deployment pipelines, monitoring, and environments. Plus a cool little slack-bot to automate our deployments."
+      ],
+      "techUsed": ["C#", ".NET", "ASP.NET MVC", "Sql Server", "Javascript", "AngularJS", "Azure", "AppVeyor", "Powershell", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "company": "Extol",
+      "location": "Zeeland, MI",
+      "started": "May 2004",
+      "position": "Intern, Applications/Network Admin, and Contracted",
+      "summary": [
+        "Started as an intern, and later hired to develop custom applications, and manage their internal server and network environment.",
+        "Worked full time for 5 1/2 years, and then began contracting with them.",
+        "Led development on a custom ERP system that covers every part of the company.",
+        "Responsible for developing, deploying, monitoring, maintaining, and improving all of their custom applications.",
+        "Web apps, batch jobs, back end processes, lots of third-party integrations, label printing, barcodes, company process flow, etc...",
+        "Completed exploritory prototyping to find technologies we could leverage to make business processes faster.",
+        "Helped hire-in and mentor a couple junior developers.",
+        "Developed a timesheet and payroll system  that brought payroll processing time from a mutli-person/multi-day process, to less than an hour by one person and has been in use for 10 years.",
+        "Created processes to reliably replicate production data down to test environments to ensure good quality testing and predictable deployments.",
+        "Developed a custom Excel reporting system which is used at all levels of the company.",
+        "Wrote multiple Solidworks integration applications which helped ensure accurate flow of information from the design team all the way down through manufacturing and build.",
+        "Built a dashboard for monitoring all our servers, web apps, back-end processes, and health of 3rd-party apps via Logstash and DataDog."
+      ],
+      "techUsed": ["C#", ".NET", ".NET Core", "ASP.NET MVC", "ASP.NET WebApi", "Javascript", "Sql Server", "Powershell", "Docker", "NodeJS", "WinForms", "HTML", "CSS", "Bootstrap", "Logstash", "DataDog" ]
+    },    
+    {
+      "company": "Herman Miller",
+      "location": "Holland, MI",
+      "started": "June 2016",
+      "ended": "October 2016",
+      "contracted": true,
+      "summary": [
+        "Intentionally short contract to fill a need working with a specialized Event-Driven application",
+        "A very interesting highly-decoupled application using NServiceBus for its internal communication.",
+        "Built a helper program to aggregate outputs from all the separate processes to show the console output in one place. Very useful for debugging the distributed processing."
+      ],
+      "techUsed": ["NServiceBus", "C#", ".NET", "ASP.NET MVC", "Sql Server", "WinForms", "Powershell"]
+    },
+    {
+      "company": "Spectrum/Priority Health",
+      "location": "Grand Rapid, MI",
+      "started": "May 2014",
+      "ended": "June 2016",
+      "contracted": true,
+      "summary": [
+        "Worked with a high-performing Agile team to deliver a complex authentication mechanism.",
+        "Delivered projects in an enviroment where security of Personal Health Information was a must.",
+        "Brought into multiple debugging events that were supposed to be \"no contractors allowed\" (due to budget reasons) for my expertise in resolving critical severity production issues.",
+        "Interacted directly with business stakeholders.",
+        "Responsible for showcasting and demonstrating team progress in each Agile Sprint.",
+        "Assigned to lead and mentor a small Agile scrum team of 3 developers through a difficult integration with internal and 3rd party claim pre-approval system that involved distributed stakeholders and multiple change requests to technical scope.",            
+        "Advocated for, and demonstrated the technical feasiblity of, bringing in a microservice/microfront-end architecture to aid in shortening deployment times, building shorter feedback loops, and enabling development scalibility as the project grew."
+      ],
+      "techUsed": ["C#", ".NET", "ASP.NET WebApi", "Javascript", "NodeJS", "AngularJS", "WinForms", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "company": "Amway",
+      "location": "Ada, MI",
+      "started": "May 2009",
+      "ended": "September 2012",
+      "contracted": true,
+      "description": "Brought in to help developers troubleshoot the complicated environments the project required.",
+      "summary": [
+        "I was in an almost entirely self-managed role to help keep 180 developers productive with custom tooling, scripts, and monitoring had to design and build.",
+        "Worked with Amway for 5 years in a DevOps/Developer role.",
+        "Built a very good relationship with the Web Operations team to come up with processes that could work at development time as well as in production."
+      ],
+      "techUsed": ["C#", ".NET", "ASP.NET", "ASP.NET MVC", "Sql Server", "SharePoint", "Powershell", "WinForms"]
+    }
+  ]
+}
