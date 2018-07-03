@@ -57,6 +57,7 @@ p {
 
 .experience {
   margin-bottom: 2em;
+  page-break-inside: avoid;
 
   .experience-header {
     padding-bottom: 10px;
