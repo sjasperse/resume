@@ -33,11 +33,9 @@ function Experience(props) {
   return (
     <div className="experience">
       <div className="experience-header">
-        <div className="company">{experience.company}</div>
-        &nbsp;&nbsp;
-        <div className="location">{experience.location}</div>
-        &nbsp;&nbsp;
-        <div className="duration">{experience.started} - {experience.ended || '(ongoing)'}</div>
+        <div className="experience-header-part company">{experience.company}</div>
+        <div className="experience-header-part location">{experience.location}</div>
+        {experience.duration.map((duration, i) => <div key={i} className="experience-header-part duration">{duration.start} - {duration.end || '(ongoing)'}</div>)}
       </div>
       {experienceField('Description', experience.description)}
       {experienceField('Position', experience.contracted ? 'Contracted' : experience.position)}

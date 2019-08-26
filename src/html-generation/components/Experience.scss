@@ -6,16 +6,12 @@
     padding-bottom: 10px;
     font-weight: bold;
 
-    .company {
+    .experience-header-part {
       display: inline-block;
     }
 
-    .location {
-      display: inline-block;
-    }
-
-    .duration {
-      display: inline-block;
+    .experience-header-part:not(:first-of-type) {
+      padding-left: 1em;
     }
   }
 

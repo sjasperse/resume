@@ -81,38 +81,38 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/html-generation/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/Experience.scss":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/components/Experience.scss ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/Experience.scss":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/Experience.scss ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".experience {\n  margin-bottom: 2em;\n  page-break-inside: avoid; }\n  .experience .experience-header {\n    padding-bottom: 10px;\n    font-weight: bold; }\n    .experience .experience-header .company {\n      display: inline-block; }\n    .experience .experience-header .location {\n      display: inline-block; }\n    .experience .experience-header .duration {\n      display: inline-block; }\n  .experience label {\n    display: inline-block;\n    font-weight: bold;\n    width: 100px; }\n  .experience .company {\n    font-size: 1.2em; }\n  .experience .location {\n    font-style: italic; }\n  .experience .field-value-about {\n    display: block;\n    padding-left: 100px; }\n", ""]);
+exports.push([module.i, ".experience {\n  margin-bottom: 2em;\n  page-break-inside: avoid; }\n  .experience .experience-header {\n    padding-bottom: 10px;\n    font-weight: bold; }\n    .experience .experience-header .experience-header-part {\n      display: inline-block; }\n    .experience .experience-header .experience-header-part:not(:first-of-type) {\n      padding-left: 1em; }\n  .experience label {\n    display: inline-block;\n    font-weight: bold;\n    width: 100px; }\n  .experience .company {\n    font-size: 1.2em; }\n  .experience .location {\n    font-style: italic; }\n  .experience .field-value-about {\n    display: block;\n    padding-left: 100px; }\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/InlineList.scss":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/components/InlineList.scss ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/InlineList.scss":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/InlineList.scss ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -124,14 +124,14 @@ exports.push([module.i, ".inline-list {\n  display: inline;\n  margin: 0;\n  pad
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/ResumeHeader.scss":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/components/ResumeHeader.scss ***!
-  \*************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/ResumeHeader.scss":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/ResumeHeader.scss ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -143,14 +143,14 @@ exports.push([module.i, ".resume-header {\n  background-color: darkblue;\n  colo
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/Section.scss":
-/*!********************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/components/Section.scss ***!
-  \********************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/Section.scss":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/Section.scss ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -162,19 +162,19 @@ exports.push([module.i, "section {\n  display: flex; }\n  section > * {\n    pad
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/index.scss":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/index.scss ***!
-  \*******************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/index.scss":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/html-generation/index.scss ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "body {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #333333;\n  margin: 0; }\n\np {\n  margin: 0.1em 0;\n  padding-left: 10px;\n  text-indent: -10px; }\n\n.clearfix::after {\n  content: \"\";\n  clear: both;\n  display: table; }\n", ""]);
+exports.push([module.i, "html {\n  -webkit-print-color-adjust: exact; }\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #333333;\n  margin: 0; }\n\np {\n  margin: 0.1em 0;\n  padding-left: 10px;\n  text-indent: -10px; }\n\n.clearfix::after {\n  content: \"\";\n  clear: both;\n  display: table; }\n", ""]);
 
 // exports
 
@@ -21261,10 +21261,10 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ "./src/components/Experience.js":
-/*!**************************************!*\
-  !*** ./src/components/Experience.js ***!
-  \**************************************/
+/***/ "./src/html-generation/components/Experience.js":
+/*!******************************************************!*\
+  !*** ./src/html-generation/components/Experience.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21279,13 +21279,13 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _toClassName = __webpack_require__(/*! ../to-class-name */ "./src/to-class-name.js");
+var _toClassName = __webpack_require__(/*! ../to-class-name */ "./src/html-generation/to-class-name.js");
 
 var _toClassName2 = _interopRequireDefault(_toClassName);
 
-__webpack_require__(/*! ./Experience.scss */ "./src/components/Experience.scss");
+__webpack_require__(/*! ./Experience.scss */ "./src/html-generation/components/Experience.scss");
 
-var _InlineList = __webpack_require__(/*! ./InlineList */ "./src/components/InlineList.js");
+var _InlineList = __webpack_require__(/*! ./InlineList */ "./src/html-generation/components/InlineList.js");
 
 var _InlineList2 = _interopRequireDefault(_InlineList);
 
@@ -21345,23 +21345,23 @@ function Experience(props) {
       { className: 'experience-header' },
       _react2.default.createElement(
         'div',
-        { className: 'company' },
+        { className: 'experience-header-part company' },
         experience.company
       ),
-      '\xA0\xA0',
       _react2.default.createElement(
         'div',
-        { className: 'location' },
+        { className: 'experience-header-part location' },
         experience.location
       ),
-      '\xA0\xA0',
-      _react2.default.createElement(
-        'div',
-        { className: 'duration' },
-        experience.started,
-        ' - ',
-        experience.ended || '(ongoing)'
-      )
+      experience.duration.map(function (duration, i) {
+        return _react2.default.createElement(
+          'div',
+          { key: i, className: 'experience-header-part duration' },
+          duration.start,
+          ' - ',
+          duration.end || '(ongoing)'
+        );
+      })
     ),
     experienceField('Description', experience.description),
     experienceField('Position', experience.contracted ? 'Contracted' : experience.position),
@@ -21382,15 +21382,15 @@ module.exports = Experience;
 
 /***/ }),
 
-/***/ "./src/components/Experience.scss":
-/*!****************************************!*\
-  !*** ./src/components/Experience.scss ***!
-  \****************************************/
+/***/ "./src/html-generation/components/Experience.scss":
+/*!********************************************************!*\
+  !*** ./src/html-generation/components/Experience.scss ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./Experience.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/Experience.scss");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/sass-loader/lib/loader.js!./Experience.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/Experience.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -21404,7 +21404,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -21412,10 +21412,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/InlineList.js":
-/*!**************************************!*\
-  !*** ./src/components/InlineList.js ***!
-  \**************************************/
+/***/ "./src/html-generation/components/InlineList.js":
+/*!******************************************************!*\
+  !*** ./src/html-generation/components/InlineList.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21430,7 +21430,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-__webpack_require__(/*! ./InlineList.scss */ "./src/components/InlineList.scss");
+__webpack_require__(/*! ./InlineList.scss */ "./src/html-generation/components/InlineList.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21462,15 +21462,15 @@ module.exports = InlineList;
 
 /***/ }),
 
-/***/ "./src/components/InlineList.scss":
-/*!****************************************!*\
-  !*** ./src/components/InlineList.scss ***!
-  \****************************************/
+/***/ "./src/html-generation/components/InlineList.scss":
+/*!********************************************************!*\
+  !*** ./src/html-generation/components/InlineList.scss ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./InlineList.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/InlineList.scss");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/sass-loader/lib/loader.js!./InlineList.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/InlineList.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -21484,7 +21484,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -21492,10 +21492,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/Paragraphs.js":
-/*!**************************************!*\
-  !*** ./src/components/Paragraphs.js ***!
-  \**************************************/
+/***/ "./src/html-generation/components/Paragraphs.js":
+/*!******************************************************!*\
+  !*** ./src/html-generation/components/Paragraphs.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21535,10 +21535,10 @@ module.exports = Paragraphs;
 
 /***/ }),
 
-/***/ "./src/components/ResumeHeader.js":
-/*!****************************************!*\
-  !*** ./src/components/ResumeHeader.js ***!
-  \****************************************/
+/***/ "./src/html-generation/components/ResumeHeader.js":
+/*!********************************************************!*\
+  !*** ./src/html-generation/components/ResumeHeader.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21553,7 +21553,7 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-__webpack_require__(/*! ./ResumeHeader.scss */ "./src/components/ResumeHeader.scss");
+__webpack_require__(/*! ./ResumeHeader.scss */ "./src/html-generation/components/ResumeHeader.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21603,15 +21603,15 @@ module.exports = ResumeHeader;
 
 /***/ }),
 
-/***/ "./src/components/ResumeHeader.scss":
-/*!******************************************!*\
-  !*** ./src/components/ResumeHeader.scss ***!
-  \******************************************/
+/***/ "./src/html-generation/components/ResumeHeader.scss":
+/*!**********************************************************!*\
+  !*** ./src/html-generation/components/ResumeHeader.scss ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./ResumeHeader.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/ResumeHeader.scss");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/sass-loader/lib/loader.js!./ResumeHeader.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/ResumeHeader.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -21625,7 +21625,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -21633,10 +21633,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/components/Section.js":
-/*!***********************************!*\
-  !*** ./src/components/Section.js ***!
-  \***********************************/
+/***/ "./src/html-generation/components/Section.js":
+/*!***************************************************!*\
+  !*** ./src/html-generation/components/Section.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21651,9 +21651,9 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-__webpack_require__(/*! ./Section.scss */ "./src/components/Section.scss");
+__webpack_require__(/*! ./Section.scss */ "./src/html-generation/components/Section.scss");
 
-var _toClassName = __webpack_require__(/*! ../to-class-name */ "./src/to-class-name.js");
+var _toClassName = __webpack_require__(/*! ../to-class-name */ "./src/html-generation/to-class-name.js");
 
 var _toClassName2 = _interopRequireDefault(_toClassName);
 
@@ -21685,15 +21685,15 @@ module.exports = Section;
 
 /***/ }),
 
-/***/ "./src/components/Section.scss":
-/*!*************************************!*\
-  !*** ./src/components/Section.scss ***!
-  \*************************************/
+/***/ "./src/html-generation/components/Section.scss":
+/*!*****************************************************!*\
+  !*** ./src/html-generation/components/Section.scss ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./Section.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/components/Section.scss");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/sass-loader/lib/loader.js!./Section.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/components/Section.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -21707,7 +21707,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -21715,10 +21715,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/html-generation/index.js":
+/*!**************************************!*\
+  !*** ./src/html-generation/index.js ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21733,29 +21733,29 @@ var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/i
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-__webpack_require__(/*! ./index.scss */ "./src/index.scss");
+__webpack_require__(/*! ./index.scss */ "./src/html-generation/index.scss");
 
-var _index = __webpack_require__(/*! ./index.json */ "./src/index.json");
+var _index = __webpack_require__(/*! ./index.json */ "./src/html-generation/index.json");
 
 var _index2 = _interopRequireDefault(_index);
 
-var _ResumeHeader = __webpack_require__(/*! ./components/ResumeHeader */ "./src/components/ResumeHeader.js");
+var _ResumeHeader = __webpack_require__(/*! ./components/ResumeHeader */ "./src/html-generation/components/ResumeHeader.js");
 
 var _ResumeHeader2 = _interopRequireDefault(_ResumeHeader);
 
-var _Section = __webpack_require__(/*! ./components/Section */ "./src/components/Section.js");
+var _Section = __webpack_require__(/*! ./components/Section */ "./src/html-generation/components/Section.js");
 
 var _Section2 = _interopRequireDefault(_Section);
 
-var _Paragraphs = __webpack_require__(/*! ./components/Paragraphs */ "./src/components/Paragraphs.js");
+var _Paragraphs = __webpack_require__(/*! ./components/Paragraphs */ "./src/html-generation/components/Paragraphs.js");
 
 var _Paragraphs2 = _interopRequireDefault(_Paragraphs);
 
-var _InlineList = __webpack_require__(/*! ./components/InlineList */ "./src/components/InlineList.js");
+var _InlineList = __webpack_require__(/*! ./components/InlineList */ "./src/html-generation/components/InlineList.js");
 
 var _InlineList2 = _interopRequireDefault(_InlineList);
 
-var _Experience = __webpack_require__(/*! ./components/Experience */ "./src/components/Experience.js");
+var _Experience = __webpack_require__(/*! ./components/Experience */ "./src/html-generation/components/Experience.js");
 
 var _Experience2 = _interopRequireDefault(_Experience);
 
@@ -21834,26 +21834,26 @@ _reactDom2.default.render(resume, document.getElementById('app'));
 
 /***/ }),
 
-/***/ "./src/index.json":
-/*!************************!*\
-  !*** ./src/index.json ***!
-  \************************/
+/***/ "./src/html-generation/index.json":
+/*!****************************************!*\
+  !*** ./src/html-generation/index.json ***!
+  \****************************************/
 /*! exports provided: personalInfo, resumeRepoUrl, objective, summary, skills, interestedIn, experience, default */
 /***/ (function(module) {
 
-module.exports = {"personalInfo":{"name":"Scott Jasperse","email":"scott@c-solve.com","github":"https://github.com/sjasperse","linkedIn":"https://www.linkedin.com/in/scottjasperse/"},"resumeRepoUrl":"https://github.com/sjasperse/resume","objective":"To share my abilities and experience with a team or teams to solve difficult problems involving web backends, APIs, and architecture, and to gain more experience in distributed applications.","summary":["14+ years of professional full stack development focusing on complex inner workings of difficult back-end projects.","Self-employed out of C-Solve Consulting, LLC for the last 8 years, contracting to deliver a range of complex projects.","Self-driven, constant learner, with a drive for quality, integrity, transparency, and good relationships in and across departments.","Led and mentored small teams, which is one of the greatest enjoyments of my career.","Helps engineer DevOps processes to improve our day-to-day operations to get to good, repeatable environments and deployments.","Worked 100% remote while traveling the country in an RV with my family."],"skills":[".NET",".NET Core","C#","ASP.NET MVC","ASP.NET WebApi","Sql Server","Docker","Javascript","AngularJS","NodeJS","ExpressJS","HTML","CSS","Bootstrap","Agile","Scrum"],"interestedIn":["React","Redux","Functional Programming","CQRS","Test-Driven Development","DevOps","CI/CD","Microservices","Domain-Driven Design","Event-Driven Architectures"],"experience":[{"company":"Building Catalyst, LLC","location":"Grand Rapids, MI","started":"January 2012","position":"Partner, Software Engineer","summary":["Building Catalyst is a software startup that seeks to use data analysis to bring Lean principles to the construction industry.","Started as a huge set of proof-of-concept formulas in the most elaborate Excel spreadsheet I've ever seen. I had to reverse engineer it and turn it into the basis of the calculation engine we have today.","Began as an ASP.NET MVC project, but I built prototype Angular implementations (and ultimately integrated them) to solve UI problems in key areas.","Stood up all our cloud hosting, build and deployment pipelines, monitoring, and environments. Plus a cool little slack-bot to automate our deployments."],"techUsed":["C#",".NET","ASP.NET MVC","Sql Server","Javascript","AngularJS","Azure","AppVeyor","Powershell","HTML","CSS","Bootstrap"]},{"company":"Extol","location":"Zeeland, MI","started":"May 2004","position":"Intern, Applications/Network Admin, and Contracted","summary":["Started as an intern, and later hired to develop custom applications, and manage their internal server and network environment.","Worked full time for 5 1/2 years, and then began contracting with them.","Led development on a custom ERP system that covers every part of the company.","Responsible for developing, deploying, monitoring, maintaining, and improving all of their custom applications.","Web apps, batch jobs, back end processes, lots of third-party integrations, label printing, barcodes, company process flow, etc...","Completed exploritory prototyping to find technologies we could leverage to make business processes faster.","Helped hire-in and mentor a couple junior developers.","Developed a timesheet and payroll system  that brought payroll processing time from a mutli-person/multi-day process, to less than an hour by one person and has been in use for 10 years.","Created processes to reliably replicate production data down to test environments to ensure good quality testing and predictable deployments.","Developed a custom Excel reporting system which is used at all levels of the company.","Wrote multiple Solidworks integration applications which helped ensure accurate flow of information from the design team all the way down through manufacturing and build.","Built a dashboard for monitoring all our servers, web apps, back-end processes, and health of 3rd-party apps via Logstash and DataDog."],"techUsed":["C#",".NET",".NET Core","ASP.NET MVC","ASP.NET WebApi","Javascript","Sql Server","Powershell","Docker","NodeJS","WinForms","HTML","CSS","Bootstrap","Logstash","DataDog"]},{"company":"Herman Miller","location":"Holland, MI","started":"June 2016","ended":"October 2016","contracted":true,"summary":["Intentionally short contract to fill a need working with a specialized Event-Driven application","A very interesting highly-decoupled application using NServiceBus for its internal communication.","Built a helper program to aggregate outputs from all the separate processes to show the console output in one place. Very useful for debugging the distributed processing."],"techUsed":["NServiceBus","C#",".NET","ASP.NET MVC","Sql Server","WinForms","Powershell"]},{"company":"Spectrum/Priority Health","location":"Grand Rapid, MI","started":"May 2014","ended":"June 2016","contracted":true,"summary":["Worked with a high-performing Agile team to deliver a complex authentication mechanism.","Delivered projects in an enviroment where security of Personal Health Information was a must.","Brought into multiple debugging events that were supposed to be \"no contractors allowed\" (due to budget reasons) for my expertise in resolving critical severity production issues.","Interacted directly with business stakeholders.","Responsible for showcasting and demonstrating team progress in each Agile Sprint.","Assigned to lead and mentor a small Agile scrum team of 3 developers through a difficult integration with internal and 3rd party claim pre-approval system that involved distributed stakeholders and multiple change requests to technical scope.","Advocated for, and demonstrated the technical feasiblity of, bringing in a microservice/microfront-end architecture to aid in shortening deployment times, building shorter feedback loops, and enabling development scalibility as the project grew."],"techUsed":["C#",".NET","ASP.NET WebApi","Javascript","NodeJS","AngularJS","WinForms","HTML","CSS","Bootstrap"]},{"company":"Amway","location":"Ada, MI","started":"May 2009","ended":"September 2012","contracted":true,"description":"Brought in to help developers troubleshoot the complicated environments the project required.","summary":["I was in an almost entirely self-managed role to help keep 180 developers productive with custom tooling, scripts, and monitoring had to design and build.","Worked with Amway for 5 years in a DevOps/Developer role.","Built a very good relationship with the Web Operations team to come up with processes that could work at development time as well as in production."],"techUsed":["C#",".NET","ASP.NET","ASP.NET MVC","Sql Server","SharePoint","Powershell","WinForms"]}]};
+module.exports = {"personalInfo":{"name":"Scott Jasperse","email":"scott@c-solve.com","github":"https://github.com/sjasperse","linkedIn":"https://www.linkedin.com/in/scottjasperse/"},"resumeRepoUrl":"https://github.com/sjasperse/resume","objective":"To share my abilities and experience with a team or teams to solve difficult problems involving web backends, APIs, and architecture, and to gain more experience in distributed applications.","summary":["15+ years of professional full stack development focusing on complex inner workings of difficult back-end projects.","Self-employed out of C-Solve Consulting, LLC for the last 9 years, contracting to deliver a range of complex projects.","Self-driven, constant learner, with a drive for quality, integrity, transparency, and good relationships in and across departments.","Led and mentored small teams, which is one of the greatest enjoyments of my career.","Helped engineer DevOps processes to improve our day-to-day operations to get to good, repeatable environments and deployments.","Worked 100% remote while traveling the country in an RV with my family for a year."],"skills":[".NET",".NET Core","C#","ASP.NET MVC","ASP.NET WebApi","NodeJS","ExpressJS","Docker","Sql Server","Javascript","AngularJS","HTML","CSS","Bootstrap","Agile","Scrum"],"interestedIn":["DevOps","CI/CD","Event-Driven Architectures","CQRS","Functional Programming","Test-Driven Development","DevOps","CI/CD","Microservices","Domain-Driven Design"],"experience":[{"company":"Building Catalyst, LLC","location":"Grand Rapids, MI","duration":[{"start":"January 2012"}],"position":"Partner, Software Engineer","summary":["Building Catalyst is a software startup that seeks to use data analysis to bring Lean principles to the construction industry.","Started as a huge set of proof-of-concept formulas in the most elaborate Excel spreadsheet I've ever seen. I had to reverse engineer it and turn it into the basis of the calculation engine we have today.","Began as an ASP.NET MVC project, but I built prototype Angular implementations (and ultimately integrated them) to solve UI problems in key areas.","Stood up all our cloud hosting, build and deployment pipelines, monitoring, and environments. Plus a cool little slack-bot to automate our deployments."],"techUsed":["C#",".NET","ASP.NET MVC","Sql Server","Javascript","AngularJS","Azure","AppVeyor","Powershell","HTML","CSS","Bootstrap"]},{"company":"Extol","location":"Zeeland, MI","duration":[{"start":"May 2004"}],"position":"Intern, Applications/Network Admin, and Contracted","summary":["Started as an intern, and later hired to develop custom applications, and manage their internal server and network environment.","Worked full time for 5 1/2 years, and have contracted with them ever since at various levels.","Led development on a custom ERP system that covers every part of the company.","Responsible for developing, deploying, monitoring, maintaining, and improving all of their custom applications.","Web apps, batch jobs, back end processes, lots of third-party integrations, label printing, barcodes, company process flow, etc...","Completed exploritory prototyping to find technologies we could leverage to make business processes better.","Helped hire-in and mentor a couple junior developers.","Developed a timesheet and payroll system  that brought payroll processing time from a mutli-person/multi-day process, to less than an hour by one person and has been in use for 10 years.","Created processes to reliably replicate production data down to test environments to ensure good quality testing and predictable deployments.","Wrote multiple Solidworks integration applications which helped ensure accurate flow of information from the design team all the way down through manufacturing and build.","Built a dashboard for monitoring all our servers, web apps, back-end processes, and health of 3rd-party apps via Logstash and DataDog."],"techUsed":["C#",".NET",".NET Core","ASP.NET MVC","ASP.NET WebApi","Javascript","Sql Server","Powershell","Docker","NodeJS","WinForms","HTML","CSS","Bootstrap","Logstash","DataDog"]},{"company":"Spectrum/Priority Health","location":"Grand Rapid, MI","duration":[{"start":"May 2014","end":"June 2016"},{"start":"August 2018"}],"contracted":true,"summary":["Worked with a high-performing Agile team to deliver a complex authentication mechanism.","Delivered projects in an enviroment where security of Personal Health Information was a must.","Brought into multiple debugging events that were supposed to be \"no contractors allowed\" (due to budget reasons) for my expertise in resolving critical severity production issues.","Interacted directly with business stakeholders.","Responsible for showcasting and demonstrating team progress in each Agile Sprint.","Assigned to lead and mentor a small Agile scrum team of 3 developers through a difficult integration with internal and 3rd party claim pre-approval system that involved distributed stakeholders and multiple change requests to technical scope.","Advocated for, and demonstrated the technical feasiblity of, bringing in a microservice/microfront-end architecture to aid in shortening deployment times, building shorter feedback loops, and enabling development scalibility as the project grew."],"techUsed":["C#",".NET","ASP.NET WebApi","Javascript","NodeJS","AngularJS","WinForms","HTML","CSS","Bootstrap"]},{"company":"Herman Miller","location":"Holland, MI","duration":[{"start":"June 2016","end":"October 2016"}],"contracted":true,"summary":["Intentionally short contract to fill a need working with a specialized Event-Driven application","A very interesting highly-decoupled application using NServiceBus for its internal communication.","Built a helper program to aggregate outputs from all the separate processes to show the console output in one place. Very useful for debugging the distributed processing."],"techUsed":["NServiceBus","C#",".NET","ASP.NET MVC","Sql Server","WinForms","Powershell"]},{"company":"Amway","location":"Ada, MI","duration":[{"start":"May 2009","end":"September 2012"}],"contracted":true,"description":"Brought in to help developers troubleshoot the complicated environments the project required.","summary":["I was in an almost entirely self-managed role to help keep 180 developers productive with custom tooling, scripts, and monitoring had to design and build.","Worked with Amway for 5 years in a DevOps/Developer role.","Built a very good relationship with the Web Operations team to come up with processes that could work at development time as well as in production."],"techUsed":["C#",".NET","ASP.NET","ASP.NET MVC","Sql Server","SharePoint","Powershell","WinForms"]}]};
 
 /***/ }),
 
-/***/ "./src/index.scss":
-/*!************************!*\
-  !*** ./src/index.scss ***!
-  \************************/
+/***/ "./src/html-generation/index.scss":
+/*!****************************************!*\
+  !*** ./src/html-generation/index.scss ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!./index.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/index.scss");
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./index.scss */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/html-generation/index.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -21867,7 +21867,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -21875,10 +21875,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./src/to-class-name.js":
-/*!******************************!*\
-  !*** ./src/to-class-name.js ***!
-  \******************************/
+/***/ "./src/html-generation/to-class-name.js":
+/*!**********************************************!*\
+  !*** ./src/html-generation/to-class-name.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21896,4 +21896,4 @@ function toClassName(name) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map?t=1530626157358
+//# sourceMappingURL=resume.js.map?t=1566838185650
