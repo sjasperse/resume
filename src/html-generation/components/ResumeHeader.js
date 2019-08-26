@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './ResumeHeader.scss';
 
-function ResumeHeader(props) {
+export default function ResumeHeader(props) {
   return (
     <header className="resume-header">
       <div className="clearfix">
@@ -23,5 +23,3 @@ ResumeHeader.propTypes = {
   linkedInUrl: PropTypes.string.isRequired,
   githubUrl: PropTypes.string.isRequired
 };
-
-module.exports = ResumeHeader;

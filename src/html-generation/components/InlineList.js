@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './InlineList.scss';
 
-function InlineList(props) {
+export default function InlineList(props) {
   const ps = props.children;
 
   if (ps) {
@@ -15,5 +15,3 @@ function InlineList(props) {
 InlineList.propTypes = {
   children: PropTypes.arrayOf(PropTypes.string)
 };
-
-module.exports = InlineList;

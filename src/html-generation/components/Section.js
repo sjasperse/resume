@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Section.scss';
 import toClassName from '../to-class-name';
 
-function Section(props) {
+export default function Section(props) {
   return (
     <section className={`section-${toClassName(props.name)}`}>
       <header>{props.name}</header>
@@ -16,5 +16,3 @@ Section.propTypes = {
   name: PropTypes.string,
   children: PropTypes.any
 };
-
-module.exports = Section;

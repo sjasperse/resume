@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const WebpackOnBuildPlugin = require('on-build-webpack');
 const spawn = require('child_process').spawn;
 const outputFolder = 'dist';
@@ -35,7 +35,7 @@ module.exports = {
   },
   devtool: 'source-map',
   plugins: [
-    new CleanWebpackPlugin([outputFolder]),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({template: './src/html-generation/index.html', filename: 'resume.html'}),
     new WebpackOnBuildPlugin(() => {
       const child = spawn('sh', [`${__dirname}/generate-pdf.sh`]);

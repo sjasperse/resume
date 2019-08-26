@@ -27,7 +27,7 @@ function toList(ps) {
   }
 }
 
-function Experience(props) {
+export default function Experience(props) {
   const experience = props.source;
 
   return (
@@ -48,5 +48,3 @@ function Experience(props) {
 Experience.propTypes = {
   source: PropTypes.object.isRequired
 };
-
-module.exports = Experience;
