@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import data from './index.json';
+import data from '../resume-data.json';
 import ResumeHeader from './components/ResumeHeader';
 import Section from './components/Section';
 import Paragraphs from './components/Paragraphs';
