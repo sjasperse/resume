@@ -1,20 +1,20 @@
 {
   "personalInfo": {
     "name": "Scott Jasperse",
-    "email": "scott@c-solve.com",
+    "email": "scott.jasperse@gmail.com",
     "github": "https://github.com/sjasperse",
     "linkedIn": "https://www.linkedin.com/in/scottjasperse/"
   },
   "resumeRepoUrl": "https://github.com/sjasperse/resume",
 
-  "objective": "To share my abilities and experience with a team or teams to solve difficult problems involving web backends, APIs, and architecture, and to gain more experience in distributed applications.",
+  "objective": "To share my abilities and experience with a team or teams to solve difficult problems involving web sites, APIs, and architecture, and to gain more experience in distributed applications.",
   "summary": [
     "15+ years of professional full stack development focusing on complex inner workings of difficult back-end projects.",
     "Self-employed out of C-Solve Consulting, LLC for the last 9 years, contracting to deliver a range of complex projects.",
     "Self-driven, constant learner, with a drive for quality, integrity, transparency, and good relationships in and across departments.",
     "Led and mentored small teams, which is one of the greatest enjoyments of my career.",
     "Helped engineer DevOps processes to improve our day-to-day operations to get to good, repeatable environments and deployments.",
-    "Worked 100% remote while traveling the country in an RV with my family for a year."
+    "Worked 100% remote for a year while traveling the country in an RV with my family."
   ],
   "skills": [ ".NET", ".NET Core", "C#", "ASP.NET MVC", "ASP.NET WebApi", "NodeJS", "ExpressJS", "Docker", "Sql Server", "Javascript", "AngularJS", "HTML", "CSS", "Bootstrap", "Agile", "Scrum" ],
   "interestedIn": [ "DevOps", "CI/CD", "Event-Driven Architectures", "CQRS", "Functional Programming", "Test-Driven Development", "DevOps", "CI/CD", "Microservices", "Domain-Driven Design" ],
