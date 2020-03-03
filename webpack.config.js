@@ -40,7 +40,7 @@ module.exports = {
   devtool: 'source-map',
   plugins: [
     new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({template: './src/html-generation/index.html', filename: 'resume.html'}),
+    new HtmlWebpackPlugin({ template: './src/html-generation/index.html', filename: 'resume.html' }),
     new WebpackOnBuildPlugin(() => {
       const child = spawn('sh', [`${__dirname}/generate-pdf.sh`]);
       child.stdout.on('data', (data) => {
