@@ -6,18 +6,16 @@
     "linkedIn": "https://www.linkedin.com/in/scottjasperse/"
   },
   "resumeRepoUrl": "https://github.com/sjasperse/resume",
-
-  "objective": "To share my abilities and experience with a team or teams to solve difficult problems involving web sites, APIs, and architecture, and to gain more experience in distributed applications.",
   "summary": [
-    "15+ years of professional full stack development focusing on complex inner workings of difficult back-end projects.",
+    "Friendly, outgoing, self-starter, and loves learning new things.",
+    "15+ years of professional full stack development focused working directly with non-techincal people to deliver understandable end results, that meets the businesses goals.",
     "Self-employed out of C-Solve Consulting, LLC for the last 9 years, contracting to deliver a range of complex projects.",
-    "Self-driven, constant learner, with a drive for quality, integrity, transparency, and good relationships in and across departments.",
     "Led and mentored small teams, which is one of the greatest enjoyments of my career.",
     "Helped engineer DevOps processes to improve our day-to-day operations to get to good, repeatable environments and deployments.",
     "Worked 100% remote for a year while traveling the country in an RV with my family."
   ],
-  "skills": [ ".NET", ".NET Core", "C#", "ASP.NET MVC", "ASP.NET WebApi", "NodeJS", "ExpressJS", "Docker", "Sql Server", "Javascript", "AngularJS", "HTML", "CSS", "Bootstrap", "Agile", "Scrum" ],
-  "interestedIn": [ "DevOps", "CI/CD", "Event-Driven Architectures", "CQRS", "Functional Programming", "Test-Driven Development", "DevOps", "CI/CD", "Microservices", "Domain-Driven Design" ],
+  "skills": [ ".NET", ".NET Core", "C#", "Javascript", "NodeJS", "ExpressJS", "ASP.NET WebApi", "React", "AngularJS", "HTML", "CSS", "ASP.NET MVC", "Docker", "Sql Server", "Bootstrap", "Agile", "Scrum", "Powershell" ],
+  "interestedIn": [ "DevOps", "CI/CD", "Event-Driven Architectures", "CQRS", "Functional Programming", "Test-Driven Development", "Microservices", "Domain-Driven Design" ],
   "experience": [
     {
       "company": "Building Catalyst, LLC",
@@ -30,7 +28,33 @@
         "Began as an ASP.NET MVC project, but I built prototype Angular implementations (and ultimately integrated them) to solve UI problems in key areas.",
         "Stood up all our cloud hosting, build and deployment pipelines, monitoring, and environments. Plus a cool little slack-bot to automate our deployments."
       ],
-      "techUsed": ["C#", ".NET", "ASP.NET MVC", "Sql Server", "Javascript", "AngularJS", "Azure", "AppVeyor", "Powershell", "HTML", "CSS", "Bootstrap"]
+      "techUsed": [".NET", "ASP.NET MVC", "Sql Server", "Javascript", "AngularJS", "Azure"]
+    },
+    {
+      "company": "Open Systems Technologies",
+      "location": "Grand Rapid, MI",
+      "duration": [{ "start": "October 2019" }],
+      "contracted": true,
+      "summary": [
+        "Worked at the tech lead on a small team, for a client startup project."
+      ],
+      "techUsed": [".NET Core", "React", "Azure", "Azure Sql Server"]
+    },
+    {
+      "company": "Spectrum/Priority Health",
+      "location": "Grand Rapid, MI",
+      "duration": [{ "start": "May 2014", "end": "June 2016" }, { "start": "August 2018", "end": "September 2019" }],
+      "contracted": true,
+      "summary": [
+        "Worked with a high-performing Agile team to deliver a complex authentication mechanism.",
+        "Delivered projects in an enviroment where security of Personal Health Information was a must.",
+        "Brought into multiple debugging events that were supposed to be \"no contractors allowed\" (due to budget reasons) for my expertise in resolving critical severity production issues.",
+        "Interacted directly with business stakeholders.",
+        "Responsible for showcasting and demonstrating team progress in each Agile Sprint.",
+        "Assigned to lead and mentor a small Agile scrum team of 3 developers through a difficult integration with internal and 3rd party claim pre-approval system that involved distributed stakeholders and multiple change requests to technical scope.",            
+        "Advocated for, and demonstrated the technical feasiblity of, bringing in a microservice/microfront-end architecture to aid in shortening deployment times, building shorter feedback loops, and enabling development scalibility as the project grew."
+      ],
+      "techUsed": ["C#", ".NET", "ASP.NET WebApi", "Javascript", "NodeJS", "AngularJS", "WinForms", "HTML", "CSS", "Bootstrap"]
     },
     {
       "company": "Extol",
@@ -51,22 +75,6 @@
         "Built a dashboard for monitoring all our servers, web apps, back-end processes, and health of 3rd-party apps via Logstash and DataDog."
       ],
       "techUsed": ["C#", ".NET", ".NET Core", "ASP.NET MVC", "ASP.NET WebApi", "Javascript", "Sql Server", "Powershell", "Docker", "NodeJS", "WinForms", "HTML", "CSS", "Bootstrap", "Logstash", "DataDog" ]
-    },
-    {
-      "company": "Spectrum/Priority Health",
-      "location": "Grand Rapid, MI",
-      "duration": [{ "start": "May 2014", "end": "June 2016" }, { "start": "August 2018" }],
-      "contracted": true,
-      "summary": [
-        "Worked with a high-performing Agile team to deliver a complex authentication mechanism.",
-        "Delivered projects in an enviroment where security of Personal Health Information was a must.",
-        "Brought into multiple debugging events that were supposed to be \"no contractors allowed\" (due to budget reasons) for my expertise in resolving critical severity production issues.",
-        "Interacted directly with business stakeholders.",
-        "Responsible for showcasting and demonstrating team progress in each Agile Sprint.",
-        "Assigned to lead and mentor a small Agile scrum team of 3 developers through a difficult integration with internal and 3rd party claim pre-approval system that involved distributed stakeholders and multiple change requests to technical scope.",            
-        "Advocated for, and demonstrated the technical feasiblity of, bringing in a microservice/microfront-end architecture to aid in shortening deployment times, building shorter feedback loops, and enabling development scalibility as the project grew."
-      ],
-      "techUsed": ["C#", ".NET", "ASP.NET WebApi", "Javascript", "NodeJS", "AngularJS", "WinForms", "HTML", "CSS", "Bootstrap"]
     },
     {
       "company": "Herman Miller",

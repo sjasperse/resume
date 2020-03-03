@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import data from '../resume-data.json';
+import picture from '../picture.jpg';
 import ResumeHeader from './components/ResumeHeader';
 import Section from './components/Section';
 import Paragraphs from './components/Paragraphs';
@@ -13,13 +14,10 @@ const resume = (
     <ResumeHeader
       name={data.personalInfo.name}
       email={data.personalInfo.email}
+      picture={picture}
       githubUrl={data.personalInfo.github}
       linkedInUrl={data.personalInfo.linkedIn}
     />
-
-    <Section name="Objective">
-      <p>{data.objective}</p>
-    </Section>
 
     <Section name="Summary">
       <Paragraphs>{data.summary}</Paragraphs>

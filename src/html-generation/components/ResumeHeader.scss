@@ -4,19 +4,29 @@
   background-color: $background;
   color: white;
   text-align: center;
+  padding: 1rem;
 
-  padding: 10px 20px;
 
-  .name {
-    margin: 0;
+  .picture {
+    height: 6rem;
+    float: left;
   }
 
-  .subtext {
-    text-align: center;
-  }
+  .details {
+    padding-top: 1rem;
+    font-size: 1rem;
 
-  a, a:visited {
-    color: lightblue;
-    margin: 0 10px;
+    .name {
+      margin: 0;
+    }
+
+    .subtext {
+      text-align: center;
+    }
+
+    a, a:visited {
+      color: lightblue;
+      margin: 0 10px;
+    }
   }
 }

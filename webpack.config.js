@@ -26,7 +26,11 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(jpe?g|gif|png|svg)$/i,
+        loader: 'url-loader'
       }
     ]
   },
