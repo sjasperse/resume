@@ -14,14 +14,12 @@ I dunno - I hated having to write a resume, and I didn't want to be fiddling wit
 All of the information I want to display on my resume is in the [`resume-data.json`](src/resume-data.json) file. 
 
 ### Step 2: Appearance
-I use react to pull the json data, and render how I want it to look.
+In the [`html-generation`]( src/html-generation/index.js) area, I use react to pull the json data, and render how I want it to look in HTML.
 
 ### Step 3: Build
 Execute `npm run build`, which performs the following steps:
-- First, webpack runs and creates the bundle under `build/`.
+- First, webpack creates the HTML/JS bundle under `build/`.
 - Next, docker fires up, using a Puppeteer image, and runs the output generation script
 - The output generation script loads the built webpage in puppeteer, and has puppeteer:
   - Extract the rendered page content, strip out the script tag, and save it as `dist/resume.html`
   - Export the rendered page as `dist/resume.pdf`
-
-
