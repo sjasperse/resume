@@ -1,0 +1,2 @@
+mkdir -p dist
+docker run -v "$(pwd)"/src/output-generation:/output-generation -v "$(pwd)"/build:/source -v "$(pwd)"/dist:/output alekzonder/puppeteer:1.0.0 node /output-generation/index.js /source/resume.html /output/resume.pdf /output/resume.html
